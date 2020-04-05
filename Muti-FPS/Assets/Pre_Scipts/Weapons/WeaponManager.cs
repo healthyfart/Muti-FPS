@@ -20,7 +20,7 @@ public class WeaponManager : MonoBehaviourPunCallbacks, IPunObservable
     public float range = 100f;
     public float limit = 0.17f;
     public int damage = 20;
-    public int TotalAmmo = 60;
+    public int TotalAmmo = 90;
     public int currentAmmo = 30;
     public int MaxAmmo = 30;
 

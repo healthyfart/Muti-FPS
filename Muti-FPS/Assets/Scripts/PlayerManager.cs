@@ -58,6 +58,9 @@ public class PlayerManager : MonoBehaviourPunCallbacks, IPunObservable
     private GameObject BloodMuzzle;
     #endregion
 
+    private WeaponManager weaponManager;
+
+
     private void Awake()
     {
         if (photonView.IsMine)
@@ -65,6 +68,7 @@ public class PlayerManager : MonoBehaviourPunCallbacks, IPunObservable
             LocalPlayerInstance = gameObject;
         }
 
+        weaponManager = GetComponent<WeaponManager>();
         DontDestroyOnLoad(gameObject);
     }
 
@@ -156,6 +160,10 @@ public class PlayerManager : MonoBehaviourPunCallbacks, IPunObservable
         isDead = false;
         disableOnDeath_MR.enabled = true;
         currentHealth = maxHealth;
+        weaponManager.currentAmmo = 30;
+        weaponManager.TotalAmmo = 90;
+        weaponManager.TotalAmmo_Text.SetText(weaponManager.TotalAmmo.ToString());
+
         health.SetText(currentHealth.ToString());
 
         for (int i = 0; i < disableOnDeath_Obj.Length; i++)

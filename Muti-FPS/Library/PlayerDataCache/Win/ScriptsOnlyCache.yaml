@@ -31,14 +31,18 @@ ScriptsOnlyBuild:
     - Photon.Pun.Demo.PunBasics.PlayerUI
     - Photon.Pun.Demo.SlotRacer.PlayerControl
     - Photon.Pun.Demo.SlotRacer.Utils.SplineWalker
-    PhotonUnityNetworking.Editor.dll:
-    - ServerSettingsInspector
     PhotonUnityNetworking.dll:
     - Photon.Pun.PhotonAnimatorView
     - Photon.Pun.PhotonRigidbodyView
     - Photon.Pun.PhotonTransformView
     - Photon.Pun.PhotonView
     - Photon.Pun.ServerSettings
+    Unity.Postprocessing.Runtime.dll:
+    - UnityEngine.Rendering.PostProcessing.ColorGrading
+    - UnityEngine.Rendering.PostProcessing.PostProcessLayer
+    - UnityEngine.Rendering.PostProcessing.PostProcessProfile
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources
+    - UnityEngine.Rendering.PostProcessing.PostProcessVolume
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -97,6 +101,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
+    - Class: 72
+      Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
@@ -107,6 +113,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -116,7 +124,11 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 11268}
+    - Class: 114
       Script: {instanceID: 11298}
+    - Class: 114
+      Script: {instanceID: 11324}
     - Class: 114
       Script: {instanceID: 11500}
     - Class: 114
@@ -126,11 +138,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11666}
     - Class: 114
+      Script: {instanceID: 11846}
+    - Class: 114
       Script: {instanceID: 12308}
     - Class: 114
       Script: {instanceID: 12450}
     - Class: 114
       Script: {instanceID: 12702}
+    - Class: 114
+      Script: {instanceID: 12782}
     - Class: 114
       Script: {instanceID: 12804}
     - Class: 114
@@ -153,6 +169,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13702}
     - Class: 114
       Script: {instanceID: 13806}
+    - Class: 114
+      Script: {instanceID: 14206}
     - Class: 114
       Script: {instanceID: 14292}
     - Class: 114
@@ -210,6 +228,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 72
+      Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
@@ -230,6 +250,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 109
       Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11268}
     - Class: 114
       Script: {instanceID: 11298}
     - Class: 114
@@ -280,6 +302,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12702}
     - Class: 114
       Script: {instanceID: 12728}
+    - Class: 114
+      Script: {instanceID: 12782}
     - Class: 114
       Script: {instanceID: 12804}
     - Class: 114
@@ -2001,4 +2025,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Launcher.unity
   - Assets/Scenes/Demo.unity
-  playerPath: D:/Unity/Muti-FPS/builds/Muti-FPS.exe
+  playerPath: "C:/Users/\u9177\u578B\u7537/Documents/GitHub/Muti-FPS/Muti-FPS/builds/Muti-FPS.exe"
